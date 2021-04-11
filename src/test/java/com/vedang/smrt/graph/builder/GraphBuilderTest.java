@@ -15,7 +15,7 @@ public class GraphBuilderTest {
     public void test() throws URISyntaxException {
 	GraphBuilder graphBuilder = new GraphBuilder();
 	Graph<Station> graph = graphBuilder.buildGraphFromFile("/StationMap.csv");
-	assertThat(graph.getAdjacenyMap().keySet().size()).isEqualTo(122);
+	assertThat(graph.getAdjacenyMap().keySet().size()).isEqualTo(127);
     }
 
 }
